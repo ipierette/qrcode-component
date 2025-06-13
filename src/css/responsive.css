@@ -1,0 +1,36 @@
+/* Responsivo para telas menores (celular) */
+@media (max-width: 480px) {
+  body {
+    padding: 16px;
+    min-height: 100vh;
+    justify-content: flex-start;
+  }
+
+  .container {
+    max-width: 100%;
+    max-height: none;
+    padding: 12px 8px 24px 8px;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+  }
+
+  .qrcode {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .text-container {
+    max-width: 100%;
+    padding: 0 4px;
+  }
+
+  .bold-text {
+    font-size: 18px;
+    margin: 0.75rem 0;
+  }
+
+  .regular-text {
+    font-size: 13px;
+  }
+}
